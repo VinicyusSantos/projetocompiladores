@@ -30,7 +30,7 @@ A linguagem possui um único bloco principal: `form "<Título>"`, que contém in
 
 ---
 
-## Exemplo de Programa
+## Exemplo 1 de Programa
 
 ### Entrada (`cadastro.formlang`):
 
@@ -73,6 +73,75 @@ form "Cadastro de Usuário" {
 </body>
 </html>
 ```
+
+##Exemplo 2
+### Entrada (`cadastro.formlang`):
+```formlang
+form "Login" {
+    text "Usuário"
+    password "Senha"
+    submit "Entrar"
+}
+```
+
+### Saída esperada (`form.html`):
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form>
+        <label>Usuário</label><br>
+        <input type="text"><br><br>
+
+        <label>Senha</label><br>
+        <input type="password"><br><br>
+
+        <button type="submit">Entrar</button>
+    </form>
+</body>
+</html>
+```
+
+##Exemplo 3
+### Entrada (`cadastro.formlang`):
+```formlang
+form "Feedback" {
+    email "Email"
+    text "Comentário"
+    submit "Enviar"
+}
+```
+
+### Saída esperada (`form.html`):
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+</head>
+<body>
+    <h1>Feedback</h1>
+    <form>
+        <label>Email</label><br>
+        <input type="email"><br><br>
+
+        <label>Comentário</label><br>
+        <input type="text"><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+```
+
 Pode adicionar e alterar os campos em cadastro.formlang utilizando: "text, email, number, checkbox, submit" e após executar, irá gerar um codigo html na raiz principal
 ---
 
