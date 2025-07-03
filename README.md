@@ -98,8 +98,8 @@ python src/formlang.py examples/cadastro.formlang
 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/formlang.git
-cd formlang
+git clone https://github.com/VinicyusSantos/projetocompiladores.git
+cd projetocompiladores
 ```
 
 2. Instale as dependências:
@@ -118,39 +118,6 @@ antlr4 -Dlanguage=Python3 grammar/FormLang.g4 -o src/generated
 
 ```bash
 python src/formlang.py examples/cadastro.formlang
-```
-
----
-
-## 📁 Estrutura do Projeto
-
-```
-formlang/
-├── .devcontainer/
-│   ├── devcontainer.json
-│   └── Dockerfile
-├── grammar/
-│   └── FormLang.g4
-├── src/
-│   ├── formlang.py
-│   ├── generator.py
-│   ├── ast.py
-│   └── generated/
-├── examples/
-│   └── cadastro.formlang
-├── tests/
-│   └── test_generator.py
-├── requirements.txt
-├── compile_grammar.sh
-└── README.md
-```
-
----
-
-## 🧪 Testes
-
-```bash
-pytest
 ```
 
 ---
