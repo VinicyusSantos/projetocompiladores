@@ -73,7 +73,7 @@ form "Cadastro de Usuário" {
 </body>
 </html>
 ```
-
+Pode adicionar e alterar os campos em cadastro.formlang utilizando: "text, email, number, checkbox, submit" e após executar, irá gerar um codigo html na raiz principal
 ---
 
 ## Como Executar
