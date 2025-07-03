@@ -1,12 +1,12 @@
 # 📝 FormLang
 
-## 👥 Equipe
+## Equipe
 
 - Vinicyus Santos  
 
 ---
 
-## 🎯 Motivação
+## Motivação
 
 Durante estágios e projetos web, desenvolvedores frequentemente precisam criar formulários HTML para coletar dados de usuários. No entanto, essa tarefa pode ser repetitiva, propensa a erros e exigir conhecimento de HTML/CSS.
 
@@ -14,7 +14,7 @@ Durante estágios e projetos web, desenvolvedores frequentemente precisam criar 
 
 ---
 
-## 💡 Descrição da Linguagem
+## Descrição da Linguagem
 
 A linguagem possui um único bloco principal: `form "<Título>"`, que contém instruções de criação de campos.
 
@@ -30,7 +30,7 @@ A linguagem possui um único bloco principal: `form "<Título>"`, que contém in
 
 ---
 
-## 📄 Exemplo de Programa
+## Exemplo de Programa
 
 ### Entrada (`cadastro.formlang`):
 
@@ -76,7 +76,7 @@ form "Cadastro de Usuário" {
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 ### ✅ Opção 1: Usando GitHub Codespaces (recomendado)
 
