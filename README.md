@@ -74,7 +74,7 @@ form "Cadastro de Usuário" {
 </html>
 ```
 
-##Exemplo 2
+## Exemplo 2
 ### Entrada (`cadastro.formlang`):
 ```formlang
 form "Login" {
@@ -108,7 +108,7 @@ form "Login" {
 </html>
 ```
 
-##Exemplo 3
+## Exemplo 3
 ### Entrada (`cadastro.formlang`):
 ```formlang
 form "Feedback" {
