@@ -1,0 +1,19 @@
+{
+    "name": "FormLang Codespace",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",
+    "features": {
+      "ghcr.io/devcontainers/features/java:1": {
+        "version": "17"
+      }
+    },
+    "postCreateCommand": "pip install -r requirements.txt && mkdir -p src/generated && curl -sSL -o antlr-4.13.1-complete.jar https://www.antlr.org/download/antlr-4.13.1-complete.jar && java -jar antlr-4.13.1-complete.jar -Dlanguage=Python3 -visitor grammar/FormLang.g4 -o src/generated && touch src/generated/__init__.py",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "redhat.java"
+        ]
+      }
+    }
+  }
+  
