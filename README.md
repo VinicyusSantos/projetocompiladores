@@ -122,11 +122,3 @@ python src/formlang.py examples/cadastro.formlang
 
 ---
 
-## 🧠 Implementação
-
-- **Lexer/Parser** gerado com ANTLR
-- **AST** construída com classes em Python
-- **Interpretador** converte AST em HTML
-- **Semântica** verifica campos duplicados
-
----
